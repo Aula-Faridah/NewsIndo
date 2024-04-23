@@ -12,7 +12,7 @@ extension String {
         let dateFormatter = DateFormatter()
         dateFormatter.locale = Locale(identifier: "id_ID")
         
-        dateFormatter.dateFormat = "yyy-MM-dd'T'hh:mm:ss.SSSZ"
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
         
 //        butuh string dari Date
         guard let date = dateFormatter.date(from: self) else {
