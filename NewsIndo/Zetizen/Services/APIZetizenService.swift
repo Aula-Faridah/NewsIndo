@@ -21,7 +21,7 @@ class APIZetizenService {
             AF.request(url).responseDecodable(of: NewsZetizen.self) { response in
                 switch response.result{
                 case.success(let newResponse):
-                    continuation.resume(returning: newsResponse.data)
+                    continuation.resume(returning: newResponse.data)
                 case.failure(let err):
                     continuation.resume(throwing: err)
                 }
