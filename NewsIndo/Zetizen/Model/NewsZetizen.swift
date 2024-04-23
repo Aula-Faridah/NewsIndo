@@ -14,7 +14,8 @@ struct NewsZetizen: Codable {
 }
 
 // MARK: - Movies
-struct Movies: Codable {
+struct Movies: Codable, Identifiable {
+    var id: String {link}
     let creator, title: String
     let link: String
     let content: String

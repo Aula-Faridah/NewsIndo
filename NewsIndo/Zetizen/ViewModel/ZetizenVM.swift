@@ -7,6 +7,7 @@
 
 import Foundation
 
+@MainActor
 class ZetizenVM: ObservableObject {
     @Published var articles = [Movies]()
     @Published var isLoading = false

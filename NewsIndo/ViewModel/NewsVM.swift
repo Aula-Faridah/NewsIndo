@@ -7,6 +7,7 @@
 
 import Foundation
 
+@MainActor
 class NewsVM: ObservableObject {
     @Published var articles = [NewsArticle]()
     @Published var isLoading = false
