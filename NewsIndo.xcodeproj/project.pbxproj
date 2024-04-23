@@ -19,6 +19,7 @@
 		52D052332BD75A8F00337715 /* NewsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D052322BD75A8F00337715 /* NewsVM.swift */; };
 		52D052372BD7626A00337715 /* String+ExtDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D052362BD7626A00337715 /* String+ExtDate.swift */; };
 		52D0523B2BD7845100337715 /* NewsZetizen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D0523A2BD7845000337715 /* NewsZetizen.swift */; };
+		52D0523E2BD7859C00337715 /* APIZetizenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D0523D2BD7859C00337715 /* APIZetizenService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		52D052322BD75A8F00337715 /* NewsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsVM.swift; sourceTree = "<group>"; };
 		52D052362BD7626A00337715 /* String+ExtDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ExtDate.swift"; sourceTree = "<group>"; };
 		52D0523A2BD7845000337715 /* NewsZetizen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsZetizen.swift; sourceTree = "<group>"; };
+		52D0523D2BD7859C00337715 /* APIZetizenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIZetizenService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 		52D052382BD7841A00337715 /* Zetizen */ = {
 			isa = PBXGroup;
 			children = (
+				52D0523C2BD7858000337715 /* Services */,
 				52D052392BD7844700337715 /* Model */,
 			);
 			path = Zetizen;
@@ -159,6 +162,14 @@
 				52D0523A2BD7845000337715 /* NewsZetizen.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		52D0523C2BD7858000337715 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				52D0523D2BD7859C00337715 /* APIZetizenService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +255,7 @@
 				52D052162BD74ABE00337715 /* ContentView.swift in Sources */,
 				52D052142BD74ABE00337715 /* NewsIndoApp.swift in Sources */,
 				52D0523B2BD7845100337715 /* NewsZetizen.swift in Sources */,
+				52D0523E2BD7859C00337715 /* APIZetizenService.swift in Sources */,
 				52D0522E2BD7554000337715 /* Constant.swift in Sources */,
 				52D052332BD75A8F00337715 /* NewsVM.swift in Sources */,
 			);
